@@ -20,6 +20,8 @@ public class Dragon extends Animates{
         Optional<Entity> dragonTarget = findDragonTarget(world);
         if (world.getBackgroundCell(this.getPosition()).getId().contains("grass")){
             world.setBackgroundCell(this.getPosition(), new Background("scorched", imageLibrary.get("scorched"), 0));
+        } else if (world.getBackgroundCell(this.getPosition()).getId().contains("water")) {
+            world.setBackgroundCell(this.getPosition(), new Background("magma", imageLibrary.get("magma"), NumberUtil.getRandomInt(0, 3)));
         }
         if (dragonTarget.isEmpty() || !moveToDragon(world, dragonTarget.get(), scheduler, imageLibrary) || !transformDragon(world, scheduler, imageLibrary)) {
             scheduleBehavior(scheduler, world, imageLibrary);
