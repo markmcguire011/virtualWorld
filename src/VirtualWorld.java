@@ -127,7 +127,16 @@ public final class VirtualWorld extends PApplet {
             if (entity.log() != null) {
                 System.out.println(entity.log());
             }
+            if(entity instanceof House house){
+                System.out.println(house.getHealth());
+            }
         }
+        if (!world.isOccupied(pressed)){
+            Dragon dragon = new Dragon(Dragon.DRAGON_KEY + "_" + (pressed.x + pressed.y), pressed, imageLibrary.get(Dragon.DRAGON_KEY), Dragon.DRAGON_ANIMATION_PERIOD, Dragon.DRAGON_BEHAVIOR_PERIOD);
+            world.addEntity(dragon);
+            dragon.scheduleActions(scheduler, world, imageLibrary);
+        }
+
     }
 
     /** Converts mouse position to world position. */

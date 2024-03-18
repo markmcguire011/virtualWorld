@@ -1,4 +1,5 @@
 grass images/grass.png
+scorched images/scorched.png
 grass_flowers images/grass_flowers.png
 grass_mushrooms images/grass_mushrooms.png
 grass_path_left images/grass_path_left.png
@@ -27,7 +28,18 @@ fairy images/fairy1.png
 fairy images/fairy2.png
 fairy images/fairy3.png
 fairy images/fairy4.png
+fire images/fire1.png
+fire images/fire2.png
+rubble images/rubble.png
+dragon images/dragonfly1.png
+dragon images/dragonfly2.png
+dragon images/dragonfire1.png
+dragon images/dragonfire2.png
 house images/house.png
+house images/houseflame1.png
+house images/houseflame2.png
+house images/houseflame3.png
+house images/houseflame4.png
 mushroom images/mushroom.png
 water images/water_masked.png
 sapling images/sapling1.png
