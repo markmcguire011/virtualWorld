@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/9BYaOt9d)
-# Project 4
+# Virtual World Project
 
 ## Course Information
 - **Course Name:** CSC 203
@@ -8,7 +8,7 @@
 
 ## Overview
 
-In this project, you will add entirely new functionality to the virtual world in the form of a "world-changing event" that creates brand-new entities to interact and change the world.
+In this project we used Java in order to construct a virtual world filled with entities that performed different actions and behaviors. Along with adding brand new funtionality, graphics, and interactions, we were tasked with refactoring a monolithic code base to incorporate object oriented fundamentals.
 
 ## Learning Objectives
 
