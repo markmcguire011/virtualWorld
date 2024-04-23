@@ -8,8 +8,9 @@
 
 ## Overview
 
-In this project we used Java in order to construct a virtual world filled with entities that performed different actions and behaviors. Along with adding brand new funtionality, graphics, and interactions, we were tasked with refactoring a monolithic code base to incorporate object oriented fundamentals. I included some of the project description for the final iteration that we had to submit, but we had built up the codebase over the course of the class.
-In this assignment I recieved full regular credit and the maximum extra credit that could be awarded.
+In this project we used Java in order to construct a virtual world filled with entities that performed different actions and behaviors. Along with adding brand new funtionality, graphics, and interactions, we were tasked with refactoring a monolithic code base to incorporate object oriented fundamentals.  
+I included some of the project description for the final iteration that we had to submit, but we had built up the codebase over the course of the class.  
+I recieved full regular credit and the maximum extra credit that could be awarded for this assignment.
 
 ## Learning Objectives
 
